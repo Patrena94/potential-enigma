@@ -3,17 +3,26 @@ const fs = require('fs');
 const inquirer =require("inquirer")
 const createPage=require('./utils/generateMarkdown.js');
 // const userInput =process.argv[2].splice()
-// const badgeSelector =(license)=> {
-//     if (license=="")
+const badgeSelector =(license)=> {
+    if (license=="MIT"){
+    return '[![License: MIT](https://img.shields.io/github/license/Patrena94/The-Ultimate-ReadME-Generator)]';
+} else if(license=='APACHE') {
+   return '[![License: APACHE](https://img.shields.io/badge/License-APACHE-brightgreen)]';
+} else if (license == 'GNU GPLv3') {
+   return '[![License: GNU GPLv3](https://img.shields.io/badge/License-GNU%20GPLv3-blue)]';
+} else if(license== 'Mozilla') {
+    return '[![License: Mozilla](https://img.shields.io/badge/License-Mozilla-orange)]';
+}
+}
 // }
 const generatePage = (obj) => { 
 return `
 
 
-                                                                  # **${obj.title}**
+                                                                  #${obj.title}
       
 # License
-${obj.license}   
+${badgeSelector(obj.license)}   
 
 
 
@@ -22,12 +31,17 @@ ${obj.Projectdescription}
 
 
  # Table of Content 
- 1.${obj.TableofContentA}
- 2.${obj.TableofContentB}
- 3.${obj.TableofContentC}
- 4.${obj.TableofContentD}
- 5.${obj.TableofContentE}
- 6.${obj.TableofContentF}
+ 1. ${obj.TableofContentA}  
+
+ 2. ${obj.TableofContentB}  
+
+ 3. ${obj.TableofContentC}  
+
+ 4. ${obj.TableofContentD}  
+
+ 5. ${obj.TableofContentE}  
+
+ 6. ${obj.TableofContentF}
 
  #Questions  
 
@@ -54,7 +68,9 @@ ${obj.testInstructions}
 ❤️ Made with Love by ${obj.userName}, LLC. 2021  
 
 ![Build Status](https://img.shields.io/github/languages/top/Patrena94/Smith-Corporation-Work-Scheduler)  
-![build status](https://img.shields.io/github/languages/top/Patrena94/Mobile-Drive-in-Theater)
+  
+![build status](https://img.shields.io/github/languages/top/Patrena94/Mobile-Drive-in-Theater)  
+
 ![Build Status](https://img.shields.io/github/languages/top/Patrena94/Multi-City-Weather-Dashboard)
  `;
 };
@@ -218,7 +234,7 @@ choices: ['The user will need to type node index.js into the command line in ord
     type: 'checkbox',
     name:"TableofContentF",
     message: "Would you please list all sections of your document?(select one new choice)",
-    choices: ['${Description}', '${Installation}', '${Usage}', '${License}', '${Contributors}', '${Tests}',],
+    choices: ['Description', '$Installation', '$Usage', '$License', 'Contributors', 'Tests',],
 }
     ])
     .then(answers => {
