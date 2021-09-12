@@ -25,24 +25,24 @@ ${badgeSelector(obj.license)}
 
 
 
- # Project Description
+ # Description
 ${obj.Projectdescription}   
 
 
  # Table of Content 
- 1.[License](${obj.TableofContentA}) 
+ 1. [License](${obj.TableofContentA}) 
 
- 2.[Project Description](${obj.TableofContentB})  
+ 2. [Description](${obj.TableofContentB})  
 
- 3.[Questions](${obj.TableofContentC})  
+ 3. [Questions](${obj.TableofContentC})  
 
- 4.[Installation](${obj.TableofContentD})  
+ 4. [Installation](${obj.TableofContentD})  
 
- 5.[Usage Details](${obj.TableofContentE})  
+ 5. [Usage](${obj.TableofContentE})  
 
- 6.[Contribution Guidelines](${obj.TableofContentF})  
+ 6. [Contribution](${obj.TableofContentF})  
 
- 7.[Test](${obj.TableofcontentG}) 
+ 7. [Test](${obj.TableofcontentG}) 
 
  # Questions  
 
@@ -58,15 +58,15 @@ ${obj.Projectdescription}
 ${obj.installationInstructions}  
 
 
-# Usage Information
+# Usage
  ${obj.usagedetails}  
 
   
-# Contribution Guidelines
+# Contribution
 ${obj.contributiondetails}  
 
 
-# Test Instructions
+# Test
 ${obj.testInstructions}  
 
 
@@ -170,7 +170,7 @@ const promptUserquestions = () => {
         type: "confirm",
         name: "confirmincontributiondetails",
         message: "Would you like to describe the contribution guidelines?",
-      },
+    },
       {
         type: "checkbox",
         name: "contributiondetails",
@@ -200,13 +200,13 @@ const promptUserquestions = () => {
         message:
           "Would you please list all sections of your document?(select one new choice)",
         choices: [
-          "License",
-          "Description",
-          "Questions",
-          "Installation",
-          "Usage",
-          "Contribution",
-          "Test",
+            "(#License)",
+            "(#Description)",
+            "(#Questions)",
+            "(#Installation)",
+            "#Usage",
+            "(#Contribution)",
+            "(#Test)",
         ],
       },
       {
@@ -215,13 +215,13 @@ const promptUserquestions = () => {
         message:
           "Would you please list all sections of your document?(select one new choice)",
         choices: [
-          "License",
-          "Description",
-          "Questions",
-          "Installation",
-          "Usage",
-          "Contribution",
-          "Test",
+            "(#License)",
+            "(#Description)",
+            "(#Questions)",
+            "(#Installation)",
+            "#Usage",
+            "(#Contribution)",
+            "(#Test)",
         ],
       },
       {
@@ -230,13 +230,13 @@ const promptUserquestions = () => {
         message:
           "Would you please list all sections of your document?(select one new choice)",
         choices: [
-          "License",
-          "Description",
-          "Questions",
-          "Installation",
-          "Usage",
-          "Contribution",
-          "Test",
+            "(#License)",
+            "(#Description)",
+            "(#Questions)",
+            "(#Installation)",
+            "#Usage",
+            "(#Contribution)",
+            "(#Test)",
         ],
       },
       {
@@ -245,13 +245,13 @@ const promptUserquestions = () => {
         message:
           "Would you please list all sections of your document?(select one new choice)",
         choices: [
-          "License",
-          "Description",
-          "Questions",
-          "Installation",
-          "Usage",
-          "Contribution",
-          "Test",
+            "(#License)",
+            "(#Description)",
+            "(#Questions)",
+            "(#Installation)",
+            "#Usage",
+            "(#Contribution)",
+            "(#Test)",
         ],
       },
       {
@@ -260,13 +260,13 @@ const promptUserquestions = () => {
         message:
           "Would you please list all sections of your document?(select one new choice)",
         choices: [
-          "License",
-          "Description",
-          "Questions",
-          "Installation",
-          "Usage",
-          "Contribution",
-          "Test",
+            "(#License)",
+            "(#Description)",
+            "(#Questions)",
+            "(#Installation)",
+            "#Usage",
+            "(#Contribution)",
+            "(#Test)",
         ],
       },
       {
@@ -275,13 +275,13 @@ const promptUserquestions = () => {
         message:
           "Would you please list all sections of your document?(select one new choice)",
         choices: [
-          "License",
-          "Description",
-          "Questions",
-          "Installation",
-          "Usage",
-          "Contribution",
-          "Test",
+            "(#License)",
+            "(#Description)",
+            "(#Questions)",
+            "(#Installation)",
+            "#Usage",
+            "(#Contribution)",
+            "(#Test)",
         ],
       },
       {
@@ -290,13 +290,13 @@ const promptUserquestions = () => {
         message:
           "Would you please list all sections of your document?(select one new choice)",
         choices: [
-          "License",
-          "Description",
-          "Questions",
-          "Installation",
-          "Usage",
-          "Contribution",
-          "Test",
+            "(#License)",
+            "(#Description)",
+            "(#Questions)",
+            "(#Installation)",
+            "#Usage",
+            "(#Contribution)",
+            "(#Test)",
         ],
       },
     ])

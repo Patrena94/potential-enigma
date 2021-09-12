@@ -8,24 +8,24 @@
 
 
 
- # Project Description
+ # Description
 The Readme Generator is design to create a Professional Readme file for an open source project app. The Readme Generator will generate a file that informs the user of purpose of the app, how to install the app, how to report issues, and how to make contributions, which will allow for other  developers to contribute to the success of the project.   
 
 
  # Table of Content 
- 1.[License](License) 
+ 1. [License]((#License)) 
 
- 2.[Project Description](Description)  
+ 2. [Description]((#Description))  
 
- 3.[Questions](Questions)  
+ 3. [Questions]((#Questions))  
 
- 4.[Installation](Installation)  
+ 4. [Installation]((#Installation))  
 
- 5.[Usage Details](Usage)  
+ 5. [Usage](#Usage)  
 
- 6.[Contribution Guidelines](Contribution)  
+ 6. [Contribution]((#Contribution))  
 
- 7.[Test](undefined) 
+ 7. [Test](undefined) 
 
  # Questions  
 
@@ -37,15 +37,15 @@ The Readme Generator is design to create a Professional Readme file for an open 
 The user will need to create a .gitignore file and include node_modules and .DS_Store/.  In addition, the user will need to have package.json with the required dependencies as well as npm init.  
 
 
-# Usage Information
+# Usage
  The user will need to type node index.js into the command line in order to initiate the program. The command line will response with a number of prompts to obtain information from the Use to populate and create the readme file. The User using Visual Studio Code will notice the new file on the explorer file listing the left-hand side of the screen.  The user will should click onto this file to view its contents.  The information that the user provided will be display in the readme file.  The user should right click the ReadMe. File(tab) to see an additional preview of the readme file.  
 
   
-# Contribution Guidelines
+# Contribution
 User interested in contributing to the project will need to create their own branch in GitHub.  They may submit changes and updates to be incorporated into the app for approval by the owner.  Individual may also fork the application to their individual accounts.  
 
 
-# Test Instructions
+# Test
 The user will need to type node index.js into the command line in order to initiate the program. The command line will response with a number of prompts to obtain information from the Use to populate and create the readme file. The User using Visual Studio Code will notice the new file on the explorer file listing the left-hand side of the screen.  The user will should click onto this file to view its contents.  The information that the user provided will be display in the readme file.  The user should right click the ReadMe. File(tab) to see an additional preview of the readme file.  
 
 
