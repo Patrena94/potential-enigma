@@ -13,21 +13,23 @@ The Readme Generator is design to create a Professional Readme file for an open 
 
 
  # Table of Content 
- 1. Description  
+ 1.[License](License) 
 
- 2. Installation  
+ 2.[Project Description](Description)  
 
- 3. Usage  
+ 3.[Questions](Questions)  
 
- 4. License  
+ 4.[Installation](Installation)  
 
- 5. Contributors  
+ 5.[Usage Details](Usage)  
 
- 6. Tests
+ 6.[Contribution Guidelines](Contribution)  
+
+ 7.[Test](undefined) 
 
  # Questions  
 
- User with questions about this project should contact me at patrena@sbcglobal.net.  You may also review my portfolio at Patrena Github repository(https://github.com/Patrena94).
+ User with questions about this project should contact me at patrena@sbcglobal.net.  You may also review my portfolio at Patrena Smith Github repository(https://github.com/Patrena94).
  
 
  
@@ -47,7 +49,7 @@ User interested in contributing to the project will need to create their own bra
 The user will need to type node index.js into the command line in order to initiate the program. The command line will response with a number of prompts to obtain information from the Use to populate and create the readme file. The User using Visual Studio Code will notice the new file on the explorer file listing the left-hand side of the screen.  The user will should click onto this file to view its contents.  The information that the user provided will be display in the readme file.  The user should right click the ReadMe. File(tab) to see an additional preview of the readme file.  
 
 
-❤️ Made with Love by Patrena, LLC. 2021  
+❤️ Made with Love by Patrena Smith, LLC. 2021  
 
 ![Build Status](https://img.shields.io/github/languages/top/Patrena94/Smith-Corporation-Work-Scheduler)  
 ![build status](https://img.shields.io/github/languages/top/Patrena94/Mobile-Drive-in-Theater)  
